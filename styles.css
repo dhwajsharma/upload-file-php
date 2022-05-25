@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+}
+
+h2{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 32px;
+	color: #555;
+}
+
+form{
+	width: 400px;
+	margin: 100px auto;
+	padding: 10px;
+}
+
+form progress{
+	display: block;
+	margin-bottom: 30px;
+	width:  100%;
+	height: 30px;
+}
+
+form label{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+form input{
+	/*font-size: 16px;*/
+}
+
+form input[type=submit]{
+	display: block;
+	padding: 10px 25px;
+	margin-top: 30px;
+	border: thin solid #e4e4e4;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+form input[type=submit]:focus
+{
+	background-color: #478de3;
+	color: white;
+}
+
+form .error, form .success{
+	padding: 10px;
+}
+
+form .error{
+	color: #cd2e2e;
+}
+
+form .success{
+	color: green;
+}
+
+
+
+
